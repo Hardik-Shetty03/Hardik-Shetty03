@@ -1,5 +1,5 @@
 <svg width="1200" height="410" viewBox="0 0 1200 410" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">About Amish Sudhakara</title>
+  <title id="title">About Hardik Shetty</title>
   <desc id="desc">Education, interests and current focus presented in a Signal Flare industrial interface.</desc>
   <defs>
     <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
@@ -32,17 +32,17 @@
     <text x="20" y="30" class="mono" fill="#0D0D0F" font-size="14" font-weight="900" letter-spacing="2">IDENTITY CARD</text>
 
     <text x="20" y="82" class="mono" fill="#929097" font-size="11" letter-spacing="1.8">NAME</text>
-    <text x="20" y="105" class="mono" fill="#F2EBDD" font-size="17" font-weight="700">AMISH SUDHAKARA</text>
+    <text x="20" y="105" class="mono" fill="#F2EBDD" font-size="17" font-weight="700">HARDIK SHETTY</text>
 
     <line x1="20" y1="122" x2="275" y2="122" stroke="#34343A"/>
     <text x="20" y="148" class="mono" fill="#929097" font-size="11" letter-spacing="1.8">DEGREE</text>
-    <text x="20" y="171" class="mono" fill="#F2EBDD" font-size="14">B.TECH — INFORMATION</text>
-    <text x="20" y="192" class="mono" fill="#F2EBDD" font-size="14">SCIENCE &amp; ENGINEERING</text>
+    <text x="20" y="171" class="mono" fill="#F2EBDD" font-size="13">B.E — COMPUTER SCIENCE</text>
+    <text x="20" y="192" class="mono" fill="#F2EBDD" font-size="13">&amp; ENGINEERING</text>
 
     <line x1="20" y1="210" x2="275" y2="210" stroke="#34343A"/>
-    <text x="20" y="236" class="mono" fill="#929097" font-size="11" letter-spacing="1.8">INSTITUTE</text>
-    <text x="20" y="259" class="mono" fill="#F2EBDD" font-size="13">NMAM INSTITUTE OF</text>
-    <text x="20" y="279" class="mono" fill="#F2EBDD" font-size="13">TECHNOLOGY, NITTE</text>
+    <text x="20" y="236" class="mono" fill="#929097" font-size="11" letter-spacing="1.8">SPECIALIZATION</text>
+    <text x="20" y="259" class="mono" fill="#F2EBDD" font-size="13">FULL STACK</text>
+    <text x="20" y="279" class="mono" fill="#F2EBDD" font-size="13">DEVELOPMENT</text>
 
     <circle cx="262" cy="270" r="7" fill="#FF5E7E" class="pulse"/>
   </g>
@@ -50,8 +50,8 @@
   <!-- main copy -->
   <g transform="translate(393 94)">
     <text x="0" y="23" class="mono" fill="#FF5E7E" font-size="12" letter-spacing="2">HELLO / SYSTEM INTRODUCTION</text>
-    <text x="0" y="68" class="sans" fill="#F2EBDD" font-size="24" font-weight="700">I’m a student interested in artificial intelligence,</text>
-    <text x="0" y="101" class="sans" fill="#F2EBDD" font-size="24" font-weight="700">programming, and software development.</text>
+    <text x="0" y="68" class="sans" fill="#F2EBDD" font-size="24" font-weight="700">I’m a Computer Science Engineer specializing in</text>
+    <text x="0" y="101" class="sans" fill="#F2EBDD" font-size="24" font-weight="700">Full Stack Development and software architecture.</text>
 
     <text x="0" y="146" class="sans" fill="#929097" font-size="17">I learn mainly by building, testing, fixing mistakes, and understanding</text>
     <text x="0" y="173" class="sans" fill="#929097" font-size="17">how the pieces of a system work together. I’m currently strengthening</text>
