@@ -1,0 +1,131 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Technologies Amish works with</title>
+  <desc id="desc">Programming languages, AI tools, development technologies, platforms, and current learning areas.</desc>
+  <defs>
+    <pattern id="diagonal" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#34343A" stroke-width="3" opacity="0.35"/>
+    </pattern>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: Arial, Helvetica, sans-serif; }
+      .dash { stroke-dasharray:14 11; animation:dash 9s linear infinite; }
+      .blink { animation:blink 1.3s steps(2,end) infinite; }
+      .chipA { animation:chipA 4.7s ease-in-out infinite; }
+      .chipB { animation:chipB 5.4s ease-in-out infinite; }
+      .chipC { animation:chipC 4.1s ease-in-out infinite; }
+      @keyframes dash { to{stroke-dashoffset:-260} }
+      @keyframes blink {0%,48%{opacity:1}49%,100%{opacity:.2}}
+      @keyframes chipA {0%,100%{opacity:.65}50%{opacity:1}}
+      @keyframes chipB {0%,100%{opacity:1}50%{opacity:.58}}
+      @keyframes chipC {0%,100%{opacity:.75}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="720" fill="#0D0D0F"/>
+  <rect x="18" y="18" width="1164" height="684" fill="#19191D" stroke="#34343A" stroke-width="2"/>
+  <rect x="18" y="18" width="1164" height="684" fill="url(#diagonal)" opacity="0.28"/>
+
+  <text x="58" y="66" class="mono" fill="#FF003C" font-size="17" font-weight="800" letter-spacing="3">TECHNOLOGIES / 03</text>
+  <line x1="258" y1="60" x2="1142" y2="60" stroke="#34343A" stroke-width="2" class="dash"/>
+  <text x="58" y="96" class="mono" fill="#929097" font-size="11" letter-spacing="1.8">TOOLS I WORK WITH — GROUPED FOR CLARITY, NOT RANKED</text>
+
+  <!-- category helper -->
+  <g id="chip">
+    <rect width="130" height="38" rx="0" fill="#0D0D0F" stroke="#34343A" stroke-width="2"/>
+  </g>
+
+  <!-- programming -->
+  <g transform="translate(58 130)">
+    <rect width="1084" height="105" fill="#0D0D0F" stroke="#34343A" stroke-width="2"/>
+    <rect width="168" height="105" fill="#FF003C"/>
+    <text x="22" y="43" class="mono" fill="#0D0D0F" font-size="13" font-weight="900" letter-spacing="2">01 /</text>
+    <text x="22" y="70" class="mono" fill="#0D0D0F" font-size="14" font-weight="900" letter-spacing="1.5">PROGRAMMING</text>
+
+    <g transform="translate(194 34)">
+      <use href="#chip"/><text x="65" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="13">PYTHON</text>
+      <g transform="translate(144)"><use href="#chip"/><text x="65" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="13">C</text></g>
+      <g transform="translate(288)"><use href="#chip"/><text x="65" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="13">C++</text></g>
+      <g transform="translate(432)"><use href="#chip"/><text x="65" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="13">JAVA</text></g>
+      <g transform="translate(576)"><rect width="156" height="38" fill="#FF5E7E"/><text x="78" y="24" text-anchor="middle" class="mono" fill="#0D0D0F" font-size="13" font-weight="900">JAVASCRIPT</text></g>
+    </g>
+  </g>
+
+  <!-- AI ML -->
+  <g transform="translate(58 251)">
+    <rect width="1084" height="125" fill="#0D0D0F" stroke="#34343A" stroke-width="2"/>
+    <rect width="168" height="125" fill="#FF5E7E"/>
+    <text x="22" y="43" class="mono" fill="#0D0D0F" font-size="13" font-weight="900" letter-spacing="2">02 /</text>
+    <text x="22" y="70" class="mono" fill="#0D0D0F" font-size="14" font-weight="900" letter-spacing="1.5">AI &amp; ML</text>
+    <text x="22" y="96" class="mono" fill="#0D0D0F" font-size="10" letter-spacing="1.2">LEARNING + USING</text>
+
+    <g transform="translate(194 23)">
+      <rect width="145" height="38" fill="#19191D" stroke="#FF003C" stroke-width="2"/><text x="72.5" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="12">PYTORCH</text>
+      <g transform="translate(159)"><rect width="145" height="38" fill="#19191D" stroke="#34343A" stroke-width="2"/><text x="72.5" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="12">TENSORFLOW</text></g>
+      <g transform="translate(318)"><rect width="110" height="38" fill="#19191D" stroke="#34343A" stroke-width="2"/><text x="55" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="12">KERAS</text></g>
+      <g transform="translate(442)"><rect width="180" height="38" fill="#19191D" stroke="#34343A" stroke-width="2"/><text x="90" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="12">MACHINE LEARNING</text></g>
+      <g transform="translate(636)"><rect width="162" height="38" fill="#FF003C"/><text x="81" y="24" text-anchor="middle" class="mono" fill="#0D0D0F" font-size="12" font-weight="900">DEEP LEARNING</text></g>
+
+      <g transform="translate(0 54)"><rect width="178" height="38" fill="#19191D" stroke="#34343A" stroke-width="2"/><text x="89" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="12">NLP</text></g>
+      <g transform="translate(192 54)"><rect width="190" height="38" fill="#19191D" stroke="#34343A" stroke-width="2"/><text x="95" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="12">COMPUTER VISION</text></g>
+      <g transform="translate(396 54)"><rect width="198" height="38" fill="#19191D" stroke="#34343A" stroke-width="2"/><text x="99" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="12">MODEL EVALUATION</text></g>
+      <g transform="translate(608 54)"><rect width="190" height="38" fill="#19191D" stroke="#FF5E7E" stroke-width="2"/><text x="95" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="12">GENERATIVE AI</text></g>
+    </g>
+  </g>
+
+  <!-- development -->
+  <g transform="translate(58 392)">
+    <rect width="1084" height="105" fill="#0D0D0F" stroke="#34343A" stroke-width="2"/>
+    <rect width="168" height="105" fill="#34343A"/>
+    <text x="22" y="43" class="mono" fill="#F2EBDD" font-size="13" font-weight="900" letter-spacing="2">03 /</text>
+    <text x="22" y="70" class="mono" fill="#F2EBDD" font-size="14" font-weight="900" letter-spacing="1.5">DEVELOPMENT</text>
+
+    <g transform="translate(194 18)">
+      <rect width="112" height="32" fill="#19191D" stroke="#34343A"/><text x="56" y="21" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">FLASK</text>
+      <g transform="translate(124)"><rect width="112" height="32" fill="#19191D" stroke="#34343A"/><text x="56" y="21" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">FASTAPI</text></g>
+      <g transform="translate(248)"><rect width="125" height="32" fill="#19191D" stroke="#34343A"/><text x="62.5" y="21" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">STREAMLIT</text></g>
+      <g transform="translate(385)"><rect width="112" height="32" fill="#19191D" stroke="#34343A"/><text x="56" y="21" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">GRADIO</text></g>
+      <g transform="translate(509)"><rect width="112" height="32" fill="#19191D" stroke="#FF003C"/><text x="56" y="21" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">REACT</text></g>
+      <g transform="translate(633)"><rect width="165" height="32" fill="#19191D" stroke="#34343A"/><text x="82.5" y="21" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">NODE / EXPRESS</text></g>
+
+      <g transform="translate(0 44)"><rect width="112" height="32" fill="#19191D" stroke="#34343A"/><text x="56" y="21" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">HTML</text></g>
+      <g transform="translate(124 44)"><rect width="112" height="32" fill="#19191D" stroke="#34343A"/><text x="56" y="21" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">CSS</text></g>
+      <g transform="translate(248 44)"><rect width="125" height="32" fill="#19191D" stroke="#FF5E7E"/><text x="62.5" y="21" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">REST APIS</text></g>
+      <g transform="translate(385 44)"><rect width="112" height="32" fill="#19191D" stroke="#34343A"/><text x="56" y="21" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">VITE</text></g>
+    </g>
+  </g>
+
+  <!-- tools -->
+  <g transform="translate(58 513)">
+    <rect width="1084" height="82" fill="#0D0D0F" stroke="#34343A" stroke-width="2"/>
+    <rect width="168" height="82" fill="#F2EBDD"/>
+    <text x="22" y="35" class="mono" fill="#0D0D0F" font-size="13" font-weight="900" letter-spacing="2">04 /</text>
+    <text x="22" y="60" class="mono" fill="#0D0D0F" font-size="14" font-weight="900" letter-spacing="1.5">TOOLS</text>
+
+    <g transform="translate(194 22)">
+      <rect width="94" height="38" fill="#19191D" stroke="#34343A"/><text x="47" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">GIT</text>
+      <g transform="translate(106)"><rect width="104" height="38" fill="#19191D" stroke="#34343A"/><text x="52" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">GITHUB</text></g>
+      <g transform="translate(222)"><rect width="112" height="38" fill="#19191D" stroke="#FF003C"/><text x="56" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">VS CODE</text></g>
+      <g transform="translate(346)"><rect width="112" height="38" fill="#19191D" stroke="#34343A"/><text x="56" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">JUPYTER</text></g>
+      <g transform="translate(470)"><rect width="104" height="38" fill="#19191D" stroke="#34343A"/><text x="52" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">KAGGLE</text></g>
+      <g transform="translate(586)"><rect width="104" height="38" fill="#19191D" stroke="#34343A"/><text x="52" y="24" text-anchor="middle" class="mono" fill="#F2EBDD" font-size="11">COLAB</text></g>
+      <g transform="translate(702)"><rect width="96" height="38" fill="#FF5E7E"/><text x="48" y="24" text-anchor="middle" class="mono" fill="#0D0D0F" font-size="11" font-weight="900">LINUX</text></g>
+    </g>
+  </g>
+
+  <!-- current learning strip -->
+  <g transform="translate(58 615)">
+    <rect width="1084" height="58" fill="#FF003C"/>
+    <text x="20" y="23" class="mono" fill="#0D0D0F" font-size="10" font-weight="900" letter-spacing="2">CURRENTLY LEARNING / 05</text>
+    <text x="20" y="43" class="mono" fill="#0D0D0F" font-size="13" font-weight="900">DSA</text>
+    <text x="84" y="43" class="mono blink" fill="#0D0D0F" font-size="13">●</text>
+    <text x="120" y="43" class="mono" fill="#0D0D0F" font-size="13" font-weight="900">SOFTWARE ENGINEERING</text>
+    <text x="318" y="43" class="mono blink" fill="#0D0D0F" font-size="13">●</text>
+    <text x="354" y="43" class="mono" fill="#0D0D0F" font-size="13" font-weight="900">DEEP LEARNING</text>
+    <text x="495" y="43" class="mono blink" fill="#0D0D0F" font-size="13">●</text>
+    <text x="531" y="43" class="mono" fill="#0D0D0F" font-size="13" font-weight="900">DEPLOYMENT</text>
+    <rect x="835" y="13" width="229" height="32" fill="#0D0D0F"/>
+    <text x="949.5" y="34" text-anchor="middle" class="mono" fill="#FF5E7E" font-size="11" letter-spacing="1.4">STATUS: IN PROGRESS</text>
+  </g>
+
+  <text x="58" y="694" class="mono" fill="#929097" font-size="10" letter-spacing="2">SKILLS CHANGE AS I LEARN // THIS PANEL WILL EVOLVE</text>
+</svg>

@@ -1,0 +1,19 @@
+[
+  {
+    "type": "normal",
+    "fileName": "profile-signal-flare.svg",
+    "backgroundColor": "#0D0D0F",
+    "foregroundColor": "#F2EBDD",
+    "strongColor": "#FF003C",
+    "weakColor": "#929097",
+    "radarColor": "#FF5E7E",
+    "growingAnimation": false,
+    "contribColors": [
+      "#19191D",
+      "#4A0D18",
+      "#B3122D",
+      "#FF003C",
+      "#FF5E7E"
+    ]
+  }
+]

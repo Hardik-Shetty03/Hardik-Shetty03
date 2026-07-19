@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="220" viewBox="0 0 560 220" role="img" aria-label="GitHub statistics awaiting first refresh">
+  <style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}.sans{font-family:Arial,Helvetica,sans-serif}</style>
+  <rect x="1" y="1" width="558" height="218" fill="#19191D" stroke="#34343A" stroke-width="2"/>
+  <rect x="1" y="1" width="8" height="218" fill="#FF003C"/>
+  <rect x="551" y="1" width="8" height="218" fill="#FF5E7E"/>
+  <text x="28" y="35" class="mono" fill="#FF003C" font-size="14" font-weight="800" letter-spacing="2">SYSTEM ACTIVITY</text>
+  <line x1="28" y1="49" x2="532" y2="49" stroke="#34343A" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="28" y="112" class="sans" fill="#F2EBDD" font-size="20" font-weight="700">Waiting for the first workflow run.</text>
+  <text x="28" y="145" class="mono" fill="#929097" font-size="11" letter-spacing="1.2">ACTIONS → UPDATE PROFILE ACTIVITY → RUN WORKFLOW</text>
+</svg>
